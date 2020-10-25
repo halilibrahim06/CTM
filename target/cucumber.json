@@ -1,0 +1,572 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2520444900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the customer is on the energy quote page",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_customer_is_on_the_energy_quote_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-25T21:39:21.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6202452600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Provide supplier detail",
+        "description": "",
+        "id": "user-should-be-able-to-look-energy-comparison--can-give-own-detail-and-see-the-result;provide-supplier-detail",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: Provide supplier detail"
+            ],
+            "result": {
+              "duration": 1999200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1410048800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user give post code detail",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_give_post_code_detail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179898200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should click energy bill as a \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_click_energy_bill_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94944100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user can compare sort of energy",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_can_compare_sort_of_energy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1578407200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should click \"true\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_click_tab(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186575200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should select \"E.ON\" supplier",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"E.ON\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_select_supplier(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226573800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should see other supplier",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_see_other_supplier()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140520000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should click next button",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_click_next_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@001"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2476756700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the customer is on the energy quote page",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_customer_is_on_the_energy_quote_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-25T21:39:34.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2240100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Provide electricity details",
+        "description": "",
+        "id": "user-should-be-able-to-look-energy-comparison--can-give-own-detail-and-see-the-result;provide-electricity-details",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: Provide electricity details"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2511218900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provide supplier details",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_provide_supplier_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1943458100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user should choose electricity tariff",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_choose_electricity_tariff()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163662300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should click economymeter button",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_click_economymeter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76954500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should choose main source tab",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_choose_main_source_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258004600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should choose current electricity usage",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_choose_current_electricity_usage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111004800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the pounds period dropdown should have",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_pounds_period_dropdown_should_have(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Please select..."
+                ]
+              },
+              {
+                "cells": [
+                  "Monthly"
+                ]
+              },
+              {
+                "cells": [
+                  "Quarterly"
+                ]
+              },
+              {
+                "cells": [
+                  "Six Monthly"
+                ]
+              },
+              {
+                "cells": [
+                  "Annually"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138188100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user should click pounds period",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_click_pounds_period()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361092300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user should choose date range",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_should_choose_date_range()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188007500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should click next button",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_click_next_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@002"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2608325800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the customer is on the energy quote page",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_customer_is_on_the_energy_quote_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-25T21:39:42.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7994700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Provide gas and preferences details",
+        "description": "",
+        "id": "user-should-be-able-to-look-energy-comparison--can-give-own-detail-and-see-the-result;provide-gas-and-preferences-details",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: Provide gas and preferences details"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ctmTest.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2101423700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user provide supplier details",
+            "match": {
+              "location": "com.ctmTest.step_definitions.ElectricityStepDefs.the_user_provide_supplier_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3808371200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should provide electriciy details",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_provide_electriciy_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2243556300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should choose gas tariff",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_choose_gas_tariff()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203583100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user should choose current gas usage pound period",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_choose_current_gas_usage_pound_period()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 422638000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user should choose gas date range",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_choose_gas_date_range()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167186100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user should click next button",
+            "match": {
+              "location": "com.ctmTest.step_definitions.EnergyStepDefs.the_user_should_click_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 644098400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user should choose tariff interest",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_choose_tariff_interest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196887300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user should give email detail",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_give_email_detail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 254159700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user should click notification checkbox",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_click_notification_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123931000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user should click see result button",
+            "match": {
+              "location": "com.ctmTest.step_definitions.GasStepDefs.the_user_should_click_see_result_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@003"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to look energy comparison, can give own detail and see the result",
+    "description": "",
+    "id": "user-should-be-able-to-look-energy-comparison--can-give-own-detail-and-see-the-result",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Energy.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
