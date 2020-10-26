@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ctmTest.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.909 s - in com.ctmTest.runners.CukesRunner
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.214 s - in com.ctmTest.runners.CukesRunner

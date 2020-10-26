@@ -28,7 +28,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Provide supplier detail",
+  "name": "Provide supplier details",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -110,7 +110,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.write("Complete scenario: Provide supplier detail");
+formatter.write("Complete scenario: Provide supplier details");
 formatter.after({
   "status": "passed"
 });

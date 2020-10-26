@@ -5,7 +5,7 @@ Feature: User should be able to look energy comparison, can give own detail and 
     Given the customer is on the energy quote page
 
   @001
-  Scenario: Provide supplier detail
+  Scenario: Provide supplier details
     When the user give post code detail
     And the user should click energy bill as a "true"
     When the user can compare sort of energy
