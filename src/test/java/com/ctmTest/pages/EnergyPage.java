@@ -45,7 +45,7 @@ public class EnergyPage {
     }
 
     /**
-     * This method return specific category select element
+     * This method return specific supplier select element
      *
      * @return Select
      */

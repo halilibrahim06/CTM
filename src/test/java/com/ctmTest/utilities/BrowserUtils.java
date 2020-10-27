@@ -1,7 +1,6 @@
 package com.ctmTest.utilities;
 
 import org.openqa.selenium.WebElement;
-
 import java.util.ArrayList;
 import java.util.List;
 

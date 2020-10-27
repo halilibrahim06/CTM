@@ -36,7 +36,7 @@ public class GasPage {
     public WebElement resultButton;
 
     /**
-     * This method return specific category select element
+     * This method return specific other gas select element
      * @return Select
      */
     public Select getOtherGasTariff() {
