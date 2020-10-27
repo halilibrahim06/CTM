@@ -67,5 +67,9 @@ https://www.linkedin.com/in/ha-lil-erdogan-b6b2a71b4
 
 ![image](https://user-images.githubusercontent.com/62216647/97296718-edb97b80-1848-11eb-85bc-b4f2959f7e9c.png)
 
+![image](https://user-images.githubusercontent.com/62216647/97296744-f6aa4d00-1848-11eb-8940-5e24c9fa16ec.png)
+
+![image](https://user-images.githubusercontent.com/62216647/97296764-fd38c480-1848-11eb-8bc9-19e5377cc921.png)
+
 
 
