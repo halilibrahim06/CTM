@@ -8,6 +8,20 @@ Dependencies have been prepared under the pom.xml file. Webdriver Manager depend
 The project was tried to be controlled from the centre using configuration.properties and ConfigurationReader.
 Driver based on Singleton Design Pattern was used and parallel testing was supported with driverPool. (In the pom.xml parallel,perCoreThreadCount,threadCountMethods)
 
+Technology Stack
+
+•	Java
+•	Selenium WebDriver
+•	Maven
+•	Cucucmber
+•	JUnit
+
+Prerequisites
+
+•	Java 1.8 - Java Dev Kit
+•	Maven - Dependency Manager
+•	IntelliJ IDEA – IDE
+
 
 HOW TO RUN TESTS
 
