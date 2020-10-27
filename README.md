@@ -9,7 +9,7 @@ Dependencies have been prepared under the pom.xml file. Webdriver Manager depend
 The project was tried to be controlled from the centre using configuration.properties and ConfigurationReader.
 Driver based on Singleton Design Pattern was used and parallel testing was supported with driverPool. (In the pom.xml parallel,perCoreThreadCount,threadCountMethods)
 
-Technology Stack
+**Technology Stack**
 
 •	Java
 
@@ -21,27 +21,35 @@ Technology Stack
 
 •	JUnit
 
-Prerequisites
+**Prerequisites**
+
+•	Windows
 
 •	Java 1.8 - Java Dev Kit
 
 •	Maven - Dependency Manager
 
+•	IntelliJ IDEA – IDE
 
-HOW TO RUN TESTS
 
--> Under the runners package "CukesRunner" right click and run CukesRunner. 
-Also path "src > test > java > com > ctmTest > runners > CukesRunner"
+**HOW TO RUN TESTS**
+
+```
+-> Under the runners package "CukesRunner" right click and run CukesRunner. Also path "src > test > java > com > ctmTest > runners > CukesRunner"
+
 -> mvn verify --> in the IDE console or navigate project path in command line and run.
+```
 
-HOW TO CREATE TEST REPORTS
+**HOW TO CREATE TEST REPORTS**
 
 1-) When you run tests with the "mvn verify" command from the console, you can see Cucumber Html Report under the target file.
+```
 -> target -> cucumber-html-reports > overview-steps.html (open with chrome option)
-
+```
 2-) Second type of report, the project is run from Runner class, a Cucumber Report link is created in the IDE console automatically.
+```
 Sample link -> View your Cucumber Report at: (Works 24 hours later than it will delete automatically)
-
+```
 http://localhost:63342/CTM/target/cucumber-html-reports/overview-steps.html
 
 
@@ -52,8 +60,17 @@ The only feature is thread one.
 It also works exclusively in the console with mvn verify -Dcucumber.options = "- tags 002". 
 Also mvn verify -Dcucumber.options = "- tags 003" -Dbrowser = chrome-headles is another option.
 
-Halil Erdogan
+**Halil Erdogan**
+
 QA Automation Engineer | SDET
 
 https://www.linkedin.com/in/ha-lil-erdogan-b6b2a71b4
+
+![image](https://user-images.githubusercontent.com/62216647/97296718-edb97b80-1848-11eb-85bc-b4f2959f7e9c.png)
+
+![image](https://user-images.githubusercontent.com/62216647/97296744-f6aa4d00-1848-11eb-8940-5e24c9fa16ec.png)
+
+![image](https://user-images.githubusercontent.com/62216647/97296764-fd38c480-1848-11eb-8bc9-19e5377cc921.png)
+
+
 
