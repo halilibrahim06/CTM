@@ -1,6 +1,7 @@
 # CTM Test
 
 TOOLS AND EXPLANATIONS
+
 The project has been prepared based on Cucumber BDD style.
 Maven build management tool is used in this project by Java (JDK8+) language.
 In the project created by using the Page Object Design Pattern, the data were collected under the pages package.
@@ -11,14 +12,19 @@ Driver based on Singleton Design Pattern was used and parallel testing was suppo
 Technology Stack
 
 •	Java
+
 •	Selenium WebDriver
+
 •	Maven
+
 •	Cucucmber
+
 •	JUnit
 
 Prerequisites
 
 •	Java 1.8 - Java Dev Kit
+
 •	Maven - Dependency Manager
 
 
