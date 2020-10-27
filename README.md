@@ -31,13 +31,13 @@ Driver based on Singleton Design Pattern was used and parallel testing was suppo
 •	IntelliJ IDEA – IDE
 
 
-HOW TO RUN TESTS
+**HOW TO RUN TESTS**
 
 -> Under the runners package "CukesRunner" right click and run CukesRunner. 
 Also path "src > test > java > com > ctmTest > runners > CukesRunner"
 -> mvn verify --> in the IDE console or navigate project path in command line and run.
 
-HOW TO CREATE TEST REPORTS
+**HOW TO CREATE TEST REPORTS**
 
 1-) When you run tests with the "mvn verify" command from the console, you can see Cucumber Html Report under the target file.
 -> target -> cucumber-html-reports > overview-steps.html (open with chrome option)
@@ -55,7 +55,8 @@ The only feature is thread one.
 It also works exclusively in the console with mvn verify -Dcucumber.options = "- tags 002". 
 Also mvn verify -Dcucumber.options = "- tags 003" -Dbrowser = chrome-headles is another option.
 
-Halil Erdogan
+**Halil Erdogan**
+
 QA Automation Engineer | SDET
 
 https://www.linkedin.com/in/ha-lil-erdogan-b6b2a71b4
