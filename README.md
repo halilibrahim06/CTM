@@ -11,14 +11,19 @@ Driver based on Singleton Design Pattern was used and parallel testing was suppo
 Technology Stack
 
 •	Java
+
 •	Selenium WebDriver
+
 •	Maven
+
 •	Cucucmber
+
 •	JUnit
 
 Prerequisites
 
 •	Java 1.8 - Java Dev Kit
+
 •	Maven - Dependency Manager
 
 
