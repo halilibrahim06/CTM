@@ -32,11 +32,12 @@ Driver based on Singleton Design Pattern was used and parallel testing was suppo
 
 
 **HOW TO RUN TESTS**
-'''
+
+```
 -> Under the runners package "CukesRunner" right click and run CukesRunner. 
 Also path "src > test > java > com > ctmTest > runners > CukesRunner"
 -> mvn verify --> in the IDE console or navigate project path in command line and run.
-'''
+```
 
 **HOW TO CREATE TEST REPORTS**
 
