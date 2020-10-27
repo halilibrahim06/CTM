@@ -20,7 +20,6 @@ Prerequisites
 
 •	Java 1.8 - Java Dev Kit
 •	Maven - Dependency Manager
-•	IntelliJ IDEA – IDE
 
 
 HOW TO RUN TESTS
