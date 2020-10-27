@@ -42,11 +42,13 @@ Driver based on Singleton Design Pattern was used and parallel testing was suppo
 **HOW TO CREATE TEST REPORTS**
 
 1-) When you run tests with the "mvn verify" command from the console, you can see Cucumber Html Report under the target file.
+```
 -> target -> cucumber-html-reports > overview-steps.html (open with chrome option)
-
+```
 2-) Second type of report, the project is run from Runner class, a Cucumber Report link is created in the IDE console automatically.
+```
 Sample link -> View your Cucumber Report at: (Works 24 hours later than it will delete automatically)
-
+```
 http://localhost:63342/CTM/target/cucumber-html-reports/overview-steps.html
 
 
